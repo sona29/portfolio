@@ -158,6 +158,7 @@ header nav ul li {
 
 .desp-column {
   border: 1px solid red;
+  width: 100%;
 }
 footer {
   margin: 1.5rem;
