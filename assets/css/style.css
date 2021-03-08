@@ -154,12 +154,21 @@ header nav ul li {
 
 .title-column {
   border-right: 5px solid white;
+  justify-content: flex-end;
+  width: 15%;
 }
 
 .desp-column {
   border: 1px solid red;
-  width: 100%;
+  width: 75%;
+  margin-left: 20px;
 }
+
+.profile-picture {
+  max-height: 300px;
+  border: 1px solid salmon;
+}
+
 footer {
   margin: 1.5rem;
   text-align: center;
