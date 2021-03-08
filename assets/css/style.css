@@ -192,7 +192,14 @@ header nav ul li {
   margin-bottom: 20px;
 }
 
-.work-image {
+.work-image-left {
+  max-height: 200px;
+  width: 50%;
+  margin-bottom: 20px;
+  padding-right: 15px;
+}
+
+.work-image-right {
   max-height: 200px;
   width: 50%;
   margin-bottom: 20px;
