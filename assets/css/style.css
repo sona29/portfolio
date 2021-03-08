@@ -156,17 +156,46 @@ header nav ul li {
   border-right: 5px solid white;
   justify-content: flex-end;
   width: 15%;
+  margin-bottom: 20px;
+}
+
+.desp-column1 {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.desp-column1 p {
+  margin-left: 20px;
 }
 
 .desp-column {
-  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
   width: 75%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.desp-column p {
   margin-left: 20px;
 }
 
 .profile-picture {
   max-height: 300px;
-  border: 1px solid salmon;
+}
+
+.refactoring {
+  max-height: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.work-image {
+  max-height: 200px;
+  width: 50%;
+  margin-bottom: 20px;
 }
 
 footer {
