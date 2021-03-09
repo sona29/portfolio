@@ -148,8 +148,8 @@ header nav ul li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
+  /* margin-left: -1.5rem; */
+  /* margin-right: -1.5rem; */
 }
 
 .title-column {
@@ -234,7 +234,41 @@ header nav ul li {
   padding: 54px;
 }
 
-footer {
-  margin: 1.5rem;
-  text-align: center;
+/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* margin-left: -1.5rem; */
+    /* margin-right: -1.5rem; */
+  }
+}
+
+/* Large smartphones  */
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .title-column {
+    border: none;
+  }
+}
+
+/* Small smartphones  */
+@media screen and (max-width: 576px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .title-column {
+    border: none;
+  }
 }
