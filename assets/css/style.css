@@ -159,9 +159,14 @@ header nav ul li {
   margin-bottom: 20px;
 }
 
+.picture-wrap {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 .desp-column1 {
   display: flex;
-  width: 75%;
+  width: 60%;
   margin-left: 20px;
   margin-bottom: 20px;
 }
@@ -270,5 +275,9 @@ header nav ul li {
 
   .title-column {
     border: none;
+  }
+
+  .main-header {
+    padding: 5px;
   }
 }
