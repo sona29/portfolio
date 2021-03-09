@@ -178,6 +178,10 @@ header nav ul li {
   margin-bottom: 20px;
 }
 
+.desp-column a:hover {
+  opacity: 1;
+}
+
 .desp-column p {
   margin-left: 20px;
 }
