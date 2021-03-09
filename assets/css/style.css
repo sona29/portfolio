@@ -170,6 +170,10 @@ header nav ul li {
   margin-left: 20px;
 }
 
+a:hover {
+  opacity: 0.1;
+}
+
 .desp-column {
   display: flex;
   flex-wrap: wrap;
@@ -193,8 +197,8 @@ header nav ul li {
   margin-bottom: 20px;
 }
 
-.desp-column a:hover {
-  opacity: 1;
+.desp-columm a:hover {
+  background-color: yellow;
 }
 
 .work-image-left {
