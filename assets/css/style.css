@@ -170,10 +170,6 @@ header nav ul li {
   margin-left: 20px;
 }
 
-a:hover {
-  opacity: 0.1;
-}
-
 .desp-column {
   display: flex;
   flex-wrap: wrap;
@@ -197,12 +193,8 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.desp-columm a:hover {
-  background-color: yellow;
-}
-
 .work-image-left {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   max-height: 200px;
   width: 50%;
   margin-bottom: 20px;
@@ -210,7 +202,7 @@ a:hover {
 }
 
 .work-image-right {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   max-height: 200px;
   width: 50%;
   margin-bottom: 20px;
