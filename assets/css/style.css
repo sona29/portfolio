@@ -187,12 +187,18 @@ header nav ul li {
 }
 
 .refactoring {
+  opacity: 0.5;
   max-height: 500px;
   width: 100%;
   margin-bottom: 20px;
 }
 
+.desp-column a:hover {
+  opacity: 1;
+}
+
 .work-image-left {
+  opacity: 0.5;
   max-height: 200px;
   width: 50%;
   margin-bottom: 20px;
@@ -200,6 +206,7 @@ header nav ul li {
 }
 
 .work-image-right {
+  opacity: 0.5;
   max-height: 200px;
   width: 50%;
   margin-bottom: 20px;
