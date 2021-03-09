@@ -178,7 +178,7 @@ header nav ul li {
   margin-bottom: 20px;
 }
 
-.desp-column a:hover {
+.refactoring:hover {
   opacity: 1;
 }
 
@@ -197,23 +197,41 @@ header nav ul li {
   margin-bottom: 20px;
 }
 
-.work-image-left {
-  /* opacity: 0.5; */
-  max-height: 200px;
+.secondaryPics {
   width: 50%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.work-image-left:hover {
+  opacity: 1;
+}
+
+.work-image-right:hover {
+  opacity: 1;
+}
+.work-image-left {
+  opacity: 0.5;
+  max-height: 200px;
+  width: 100%;
   margin-bottom: 20px;
   padding-right: 15px;
 }
 
 .work-image-right {
-  /* opacity: 0.5; */
+  opacity: 0.5;
   max-height: 200px;
-  width: 50%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
 .contact-column ul li {
   display: inline-block;
+  padding: 54px;
 }
 
 footer {
