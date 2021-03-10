@@ -154,8 +154,6 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  /* margin-left: -1.5rem; */
-  /* margin-right: -1.5rem; */
 }
 
 .title-column {
@@ -190,6 +188,7 @@ header nav ul li a {
 }
 
 .refactoring:hover {
+  /* Setting default opacity on hover */
   opacity: 1;
 }
 
@@ -247,16 +246,19 @@ header nav ul li a {
   padding: 54px;
 }
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+/* When using `max-width` as the breakpoint, we must go from widest to narrowest to avoid conflict */
 
 /* Tablets */
 @media screen and (max-width: 992px) {
   .row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    /* margin-left: -1.5rem; */
-    /* margin-right: -1.5rem; */
+    flex-direction: row;
+  }
+
+  .contact-column ul li {
+    display: block;
+    padding: 15px;
   }
 }
 
@@ -270,6 +272,43 @@ header nav ul li a {
 
   .title-column {
     border: none;
+    width: 65%;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+  h1 {
+    padding: 5px;
+    font-weight: 500px;
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .main-header {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .profile-picture {
+    max-height: 420px;
+  }
+
+  .desp-column1 {
+    width: 75%;
+  }
+
+  .contact-column ul li {
+    display: block;
+    padding: 15px;
+  }
+
+  .work-image-left {
+    padding: 0px;
+    margin: 0px;
   }
 }
 
@@ -286,11 +325,22 @@ header nav ul li a {
     width: 65%;
   }
 
+  header h1 {
+    font-size: 35px;
+  }
+  h1 {
+    padding: 5px;
+    font-weight: 500px;
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
   .main-header {
     padding: 0px;
     margin: 0px;
-    /* border: 1px solid red; */
-    /* padding: 5px; */
   }
 
   .profile-picture {
@@ -304,5 +354,10 @@ header nav ul li a {
   .contact-column ul li {
     display: block;
     padding: 15px;
+  }
+
+  .work-image-left {
+    padding: 0px;
+    margin: 0px;
   }
 }
