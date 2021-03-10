@@ -307,7 +307,12 @@ header nav ul li a {
   }
 
   .work-image-left {
-    padding: 0px;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .work-image-right {
+    padding: 5px;
     margin: 0px;
   }
 }
@@ -357,7 +362,12 @@ header nav ul li a {
   }
 
   .work-image-left {
-    padding: 0px;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .work-image-right {
+    padding: 5px;
     margin: 0px;
   }
 }
