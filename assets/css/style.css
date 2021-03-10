@@ -1,9 +1,9 @@
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
-  --outer-space: #33393f;
+  --outer-space: #edeef6;
   --bright-turquoise: #2aefcb;
-  --gin: #e0eae4;
-  --heliotrope: #e866ec;
+  --gin: #445877;
+  --heliotrope: #445877;
 }
 
 /* set content highlight color and background */
@@ -44,6 +44,7 @@ h6 {
 h1 {
   /* 4rem = 40px (4 * 10px) */
   font-size: 4rem;
+  color: #92cbcd;
 }
 
 h2 {
@@ -131,6 +132,11 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
+
+header nav ul li a {
+  /* to display list items horizontally instead of vertically */
+  color: #92cbcd;
+}
 /* for nav end */
 
 .hero {
@@ -153,7 +159,7 @@ header nav ul li {
 }
 
 .title-column {
-  border-right: 5px solid white;
+  border-right: 5px solid #445877;
   justify-content: flex-end;
   width: 15%;
   margin-bottom: 20px;
@@ -275,12 +281,26 @@ header nav ul li {
 
   .title-column {
     border: none;
+    width: 65%;
   }
 
   .main-header {
     padding: 0px;
     margin: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* padding: 5px; */
+  }
+
+  .profile-picture {
+    max-height: 420px;
+  }
+
+  .desp-column1 {
+    width: 75%;
+  }
+
+  .contact-column ul li {
+    display: block;
+    padding: 15px;
   }
 }
