@@ -14,6 +14,10 @@
 
 ![alt text](assets/images/ipad-pro.png)
 
+## Iphone X
+
+![alt text](assets/images/iphone.png)
+
 ## Link to deployed application
 
 https://sona29.github.io/first-assignment/
