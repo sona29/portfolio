@@ -7,6 +7,10 @@
 - The footer links contains ways to contact me
 - The resume can be downloaded from Resume header navigation.
 
+## Technolgy used:
+
+HTML, CSS, Flexbox
+
 ## Mock up
 
 - The following image shows the web application's appearance in different devices
