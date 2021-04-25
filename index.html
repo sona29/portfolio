@@ -8,34 +8,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!-- adding meta description-->
     <meta name="description" content="Portfolio">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Portfolio</title>
 </head>
 <body>
-
-    <header class="main-header">       
-        <!-- Headers -->
-        <h1>Sona Shrestha</h1>
-         
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="./assets/images/cv.docx" target="_blank">Resume</a>
-                </li>
+  <div class="container-fluid"> 
+       <!-- Navigation -->
+     
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark header">
+          <h1>Sona Shrestha</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-a" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+             
             </ul>
+          </div>
         </nav>
-    </header>
+    
 
      <!-- Banner Image -->    
      <div class="hero"></div> 
@@ -65,17 +68,26 @@
             </div>
 
             <div class="desp-column">
-                <!-- <h3>Refactoring Project and others coming soon!</h3> -->
-                <!-- Larger Image in the work section -->    
-                <a href="https://sona29.github.io/whats-in-my-pantry/" target="_blank"><img src="./assets/images/pantry.png" class="refactoring"></a>                 
-                 
-                <!-- Smaller Images in the work section --> 
-                <a href="https://sona29.github.io/weatherdashboard/" class="secondaryPics"><img src="./assets/images/Capture.PNG" class="work-image-left"></a>
-                <a href="https://sona29.github.io/codequiz/index.html" class="secondaryPics"><img src="./assets/images/quiz.jpg" class="work-image-right"></a>
-                <a href="https://sona29.github.io/dayschedular/" class="secondaryPics"><img src="./assets/images/screenshot.png" class="work-image-left"></a>
-                <a href="https://sona29.github.io/passwordgenerator/" class="secondaryPics"><img src="./assets/images/pwd.jpg" class="work-image-right"></a>
 
-            </div>
+             
+                <div class="row">
+                  <div class="col-sm">
+                    <h2>Whats in my pantry</h2>
+                    <a href="https://github.com/sona29/whats-in-my-pantry" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://sona29.github.io/whats-in-my-pantry/" target="_blank"><img src="./assets/images/pantry.png" class="refactoring"></a>
+                  </div>
+                  <div class="col-sm">
+                    <h2>Weather Dashboard</h2>
+                    <a href="https://github.com/sona29/weatherdashboard" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://sona29.github.io/weatherdashboard/" class="secondaryPics"><img src="./assets/images/Capture.PNG" class="work-image-left"></a>
+                  </div>
+                  <div class="col-sm">
+                    <h2>Day Schedular</h2>
+                    <a href="https://github.com/sona29/dayschedular" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://sona29.github.io/dayschedular/" class="secondaryPics"><img src="./assets/images/screenshot.png" class="work-image-left"></a>
+                  </div>
+                </div>
+              </div>
         </section>
 
          <!-- Contact section -->     
@@ -97,6 +109,12 @@
 
     </main>
 
-    
+  </div> 
+  <!-- container end -->
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
