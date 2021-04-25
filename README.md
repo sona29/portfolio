@@ -33,4 +33,12 @@ HTML, CSS, Bootstrap
 
 ## Link to deployed application
 
-https://sona29.github.io/first-assignment/
+https://sona29.github.io/portfolio/
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Contact
+
+Sona Shrestha (sona.shrestha004@gmail.com)
