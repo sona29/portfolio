@@ -27,6 +27,10 @@ HTML, CSS, Flexbox
 
 ![alt text](assets/images/iphone.png)
 
+## Technology used
+
+HTML, CSS, Bootstrap
+
 ## Link to deployed application
 
 https://sona29.github.io/first-assignment/
